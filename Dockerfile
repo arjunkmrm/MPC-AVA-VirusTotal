@@ -17,7 +17,7 @@ COPY .env /app/.env
 EXPOSE 8020
 
 # Set environment variables
-ENV VIRUSTOTAL_API_KEY="API-KEY"
+ENV VIRUSTOTAL_API_KEY="7374c808abccce2b73e1033bfe96f1a8fd47acf887252b348fbf38c2ca1d3114"
 
 # Set the entrypoint to run your server
 ENTRYPOINT ["python", "server.py"]
