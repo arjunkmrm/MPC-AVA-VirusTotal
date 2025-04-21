@@ -16,5 +16,8 @@ COPY .env /app/.env
 # Expose the port used by your server (adjust if needed)
 EXPOSE 8020
 
+# Set environment variables
+ENV VIRUSTOTAL_API_KEY="API-KEY"
+
 # Set the entrypoint to run your server
 ENTRYPOINT ["python", "server.py"]
